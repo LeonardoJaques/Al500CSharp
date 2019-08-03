@@ -1,0 +1,72 @@
+﻿        1) realint(número real) Função que converte um número real em inteiro.
+        2) intreal(número inteiro) Função que converte um número inteiro em real.
+        3) strtam(string) Função que retorna número de caracteres de uma string.
+        4) strelem(string, pos) Função que retorna o elemento da string que se
+        4) encontra na posição indicada na função como POS.
+        4) O comando formatar é usado com o comando imprima. Igual ao Math.round(numero,casaDecimais)
+        5) strprim(string) Função que retorna o primeiro elemento da string.
+        5) strnprim(string, n) Função que retorna os n primeiros elementos da
+        5) string, incluindo a posição O (zero).
+        6) strresto(string) Função que retorna todos os elementos da string, exceto o primeiro;
+        7) strult(string) Função que retorna o último elemento da string.
+        7) Nesse caso a função reconhece que os dois primeiros elementos se encontram
+        7) nas posições O (zero) e 1 (um).
+        8) strcopia(string) Função que copia a string. Deverá ser usada com o comando
+        8) de atribuição
+        9) strconcat(stringl, string2) Função que resulta na copia do valor contido
+        9) em uma string2 para o final da string1.
+
+        10) abs(x) função resulta no valor absoluto de qualquer número.
+        11) exp(x) função resulta no valor do número e (base do logaritmo neperiano) elevalo a um número qualquer.
+        11) exp (3) Nesse caso, seria o mesmo que e 3 -> 2.71828182846 3
+        11) exp (2) Nesse caso, seria o mesmo que e 2 -> 2.71828182846 * * 2
+        11) Dessa forma, podemos observar que a função exp(x) se refere à base e
+        11) (base do logaritmo neperiano: 2.71828182846) elevada ao número cita
+        11) do entre os parênteses da função exp(x).
+        11) C Normalmente, as linguagens de programação assumem que a função exp() é uma
+        11) função que retorna um valor REAL. Atenção especial, portanto, para variáveis que receberão
+        11) como conteúdo expressões que envolvam essa função.
+        12) log(x) Função que resulta no valor do logaritmo neperiano de um número
+        12) qualquer.
+        12) log(3 ) Nesse caso, seria: 1.09861
+        12) Dessa forma, podemos observar que o logaritmo ao qual a função
+        12) log(x) se refere é sempre denominado pela base e.
+        12) Na prática, poderá ser necessário calcular o logaritmo em outra base e, para
+        12) isso, você deverá fazer a conversão entre bases logarítmicas, usando a seguinte
+        12) propriedade:
+        12) logAB = logA/LogB;
+        12) Se considerarmos que a base dos logaritmos naturais (e) será usada, teremos:
+        12) Log(A) / Log(B)
+        12) Normalmente, as linguagens de programação assumem que a função IogQ é uma
+        12) função que retorna um valor REAL. Atenção especial, portanto, para variáveis que receberão
+        12) como conteúdo expressões que envolvam essa função.
+        13) raiz(x) Função que resulta no valor da raiz quadrada de um número positivo.
+        13) raiz(4) Nesse caso, seria o mesmo que -s.k =2
+        13) raiz(9) Nesse caso, seria o mesmo que -f =3
+        13) Dessa forma, podemos observar que a função raiz(x) sempre fornece a
+        13) raiz quadrada do argumento que sempre será positivo.
+        13) Normalmente, as linguagens de programação assumem que a função raiz() é uma
+        13) função que retorna um valor REAL. Atenção especial, portanto, para variáveis que receberão
+        13) como conteúdo expressões que envolvam essa função.
+        14) ** - exponenciação com resultado Real
+        14) ^  - exponenciação com resultado Inteiro, fazendo arredondamento.
+
+
+
+
+/* DESAFIO
+
+
+ */
+
+
+  private void Logic() {
+
+      }
+  public void Run() => Logic();
+
+
+
+  //    PROGRAM.CS
+         Algoritmo11 a11 = new Algoritmo11();
+         a11.Run();
