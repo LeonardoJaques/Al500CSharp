@@ -35,11 +35,11 @@
             //Algoritmo19 a19 = new Algoritmo19 ();
             //a19.Run ();
 
-            Algoritmo20 a20 = new Algoritmo20();
-            a20.Run();
+            //Algoritmo20 a20 = new Algoritmo20();
+            //a20.Run();
 
-            //Algoritmo21 a21 = new Algoritmo21();
-            //a21.Run();
+            Algoritmo21 a21 = new Algoritmo21();
+            a21.Run();
 
             //Algoritmo22 a22 = new Algoritmo22 ();
             //a22.Run ();
