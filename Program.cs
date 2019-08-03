@@ -1,4 +1,6 @@
-﻿namespace Al500CSharp
+﻿using Al500csharp;
+
+namespace Al500CSharp
 {
     class Program {
         static void Main (string[] args) {
@@ -41,11 +43,11 @@
             //Algoritmo21 a21 = new Algoritmo21();
             //a21.Run();
 
-            Algoritmo22 a22 = new Algoritmo22();
-            a22.Run();
+            //Algoritmo22 a22 = new Algoritmo22();
+            //a22.Run();
 
-            //Algoritmo23 a23 = new Algoritmo23 ();
-            //a23.Run ();
+            Algoritmo23 a23 = new Algoritmo23();
+            a23.Run();
 
             //Algoritmo24 a24 = new Algoritmo24 ();
             //a24.Run ();
