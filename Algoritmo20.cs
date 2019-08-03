@@ -11,7 +11,7 @@ namespace Al500CSharp
 
         private void Logic(){
 
-            string c, c1, d, d1;
+            string c, c1, d, d1, e;
             string strtam, strconcat, strprim;
             string strult, strresto, strelem;
             string strnprim, strnresto;
@@ -24,28 +24,30 @@ namespace Al500CSharp
             c1 = Console.ReadLine();
 
             strtam = Convert.ToString(c.Length);
-            strconcat = c + c1;
+            
             d1 = string.Concat(c,c1);
             d = string.Copy(c);
+            e = c;
 
-            strprim = c.Substring(0,1);
-            strult = c.Substring(c.Length - 1,1);
-            strresto = c.Substring(1,c.Length - 1);
-            strelem = c.Substring(3,1);
-            strnprim = c.Substring(0, 3);
-            strnresto = c.Substring(c.Length - 3);
+            strprim = d1.Substring(0,1);
+            strult = d1.Substring(d1.Length - 1,1);
+            strresto = d1.Substring(1,d1.Length - 1);
+            strelem = d1.Substring(2,1);
+            strnprim = d1.Substring(0, 3);
+            strnresto = d1.Substring(d1.Length - 3);
 
 
             Console.WriteLine($"\nO tamanho da primeira palavra é: {strtam}");
-            Console.WriteLine($"\nConcatenando a primeira e a segunda palavra: {strconcat}");
-            Console.WriteLine($"\nCopiando a primeira palavra é: {d}");
-            Console.WriteLine($"\nConcatenando a primeira e a segunda palavra com concat: {d1}");
-            Console.WriteLine($"\nImprimindo a letra inicial da primeira palavra: {strprim}");
-            Console.WriteLine($"\nImprimindo a letra final da primeira palavra: {strult}");
+            Console.WriteLine($"\nConcatenando sem armazenar: {c+c1}");
+            Console.WriteLine($"\nO conteudo de D variavel que teve valor (COPIADO) de c: {d}");
+            Console.WriteLine($"\nO conteudo de E variavel que teve valor (ATRIBUIDO) de c: {e}");
+            Console.WriteLine($"\nConcatenacao com armazenamento: {d1}");
+            Console.WriteLine($"\nImprimindo a letra inicial: {strprim}");
+            Console.WriteLine($"\nImprimindo a letra final: {strult}");
             Console.WriteLine($"\nTodas as letras menos a inicial da primeira palavra: {strresto}");
-            Console.WriteLine($"\nO terceiro elemento da primeira palavra: {strelem}");
-            Console.WriteLine($"\nOs três elementos iniciais da primeira palavra: {strnprim}");
-            Console.WriteLine($"\nOs três elementos finais da primeira palavra: {strnresto}");
+            Console.WriteLine($"\nO terceiro elemento da palavra: {strelem}");
+            Console.WriteLine($"\nOs três elementos iniciais: {strnprim}");
+            Console.WriteLine($"\nOs três elementos finais: {strnresto}");
         }
         public void Run() => Logic();
 
