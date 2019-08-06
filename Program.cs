@@ -64,14 +64,14 @@ namespace Al500CSharp
             //Algoritmo28 a28 = new Algoritmo28();
             //a28.Run();
 
-            Algoritmo29 a29 = new Algoritmo29();
-            a29.Run();
+            //Algoritmo29 a29 = new Algoritmo29();
+            //a29.Run();
 
-            //Algoritmo30 a30 = new Algoritmo30 ();
-            //a30.Run ();
+            //Algoritmo30 a30 = new Algoritmo30();
+            //a30.Run();
 
-            //Algoritmo31 a31 = new Algoritmo31 ();
-            //a31.Run ();
+            Algoritmo31 a31 = new Algoritmo31();
+            a31.Run();
 
             //Algoritmo32 a32 = new Algoritmo32 ();
             //a32.Run ();
