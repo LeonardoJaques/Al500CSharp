@@ -97,11 +97,11 @@ namespace Al500CSharp
             //Algoritmo39 a39 = new Algoritmo39();
             //a39.Run();
 
-            Algoritmo40 a40 = new Algoritmo40();
-            a40.Run();
+            //Algoritmo40 a40 = new Algoritmo40();
+            //a40.Run();
 
-            //Algoritmo41 a41 = new Algoritmo41 ();
-            //a41.Run ();
+            Algoritmo41 a41 = new Algoritmo41();
+            a41.Run();
 
             //Algoritmo42 a42 = new Algoritmo42 ();
             //a42.Run ();
