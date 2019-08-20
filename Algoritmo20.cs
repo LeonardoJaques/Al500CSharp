@@ -12,7 +12,7 @@ namespace Al500CSharp
         private void Logic(){
 
             string c, c1, d, d1, e;
-            string strtam, strconcat, strprim;
+            string strtam, strprim;
             string strult, strresto, strelem;
             string strnprim, strnresto;
 

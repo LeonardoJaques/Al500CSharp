@@ -16,7 +16,7 @@ namespace Al500csharp
 
             int quantidade;
 
-            Console.WriteLine("Insira a quantidade de disciplina: ");
+            Console.WriteLine("Insira a quantidade de disciplinas: ");
             quantidade = Convert.ToInt32(Console.ReadLine());
 
             double[] notas = new double[quantidade];
