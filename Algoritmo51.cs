@@ -10,7 +10,7 @@ namespace Al500csharp
         */
 
         private void Logic() {
-            double circulo, diametro, perimetro, area, raio;
+            double diametro, perimetro, area, raio;
 
             Console.WriteLine("Insira o raio do circulo");
             raio = Convert.ToDouble(Console.ReadLine());

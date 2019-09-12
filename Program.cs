@@ -136,14 +136,14 @@ namespace Al500CSharp
             //Algoritmo52 a52 = new Algoritmo52();
             //a52.Run();
 
-            Algoritmo53 a53 = new Algoritmo53();
-            a53.Run();
+            //Algoritmo53 a53 = new Algoritmo53();
+            //a53.Run();
 
-            //Algoritmo54 a54 = new Algoritmo54 ();
-            //a54.Run ();
+            //Algoritmo54 a54 = new Algoritmo54();
+            //a54.Run();
 
-            //Algoritmo55 a55 = new Algoritmo55 ();
-            //a55.Run ();
+            Algoritmo55 a55 = new Algoritmo55();
+            a55.Run();
 
             //Algoritmo56 a56 = new Algoritmo56 ();
             //a56.Run ();
