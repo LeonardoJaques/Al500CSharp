@@ -142,26 +142,26 @@ namespace Al500CSharp
             //Algoritmo54 a54 = new Algoritmo54();
             //a54.Run();
 
-            Algoritmo55 a55 = new Algoritmo55();
-            a55.Run();
+            //Algoritmo55 a55 = new Algoritmo55();
+            //a55.Run();
 
-            //Algoritmo56 a56 = new Algoritmo56 ();
-            //a56.Run ();
+            //Algoritmo56 a56 = new Algoritmo56();
+            //a56.Run();
 
-            //Algoritmo57 a57 = new Algoritmo57 ();
-            //a57.Run ();
+            //Algoritmo57 a57 = new Algoritmo57();
+            //a57.Run();
 
-            //Algoritmo58 a58 = new Algoritmo58 ();
-            //a58.Run ();
+            //Algoritmo58 a58 = new Algoritmo58();
+            //a58.Run();
 
-            //Algoritmo59 a59 = new Algoritmo59 ();
-            //a59.Run ();
+            //Algoritmo59 a59 = new Algoritmo59();
+            //a59.Run();
 
-            //Algoritmo60 a60 = new Algoritmo60 ();
-            //a60.Run ();
+            //Algoritmo60 a60 = new Algoritmo60();
+            //a60.Run();
 
-            //Algoritmo61 a61 = new Algoritmo61 ();
-            //a61.Run ();
+            Algoritmo61 a61 = new Algoritmo61();
+            a61.Run();
 
             //Algoritmo62 a62 = new Algoritmo62 ();
             //a62.Run ();
